@@ -3,7 +3,7 @@
 namespace MHaciyev\Menu\Services;
 
 use Illuminate\Database\Eloquent\Model;
-use MHaciyev\Menu\App\Request\MenuGroupRequest;
+use MHaciyev\Menu\App\Http\Request\MenuGroupRequest;
 use MHaciyev\Menu\App\Models\MenuGroup;
 use MHaciyev\Menu\Repositories\MenuGroupRepository;
 
