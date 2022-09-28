@@ -1,0 +1,27 @@
+{
+    "name": "mhaciyev/menu",
+    "autoload": {
+        "psr-4": {
+            "MHaciyev\\Menu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mhaciyev",
+            "email": "dr.metion@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "livewire/livewire": "^2.10",
+        "spatie/laravel-translatable": "^6.0",
+        "iksaku/laravel-mass-update": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MHaciyev\\Menu\\App\\Providers\\MenuServiceProvider"
+            ]
+        }
+    }
+}

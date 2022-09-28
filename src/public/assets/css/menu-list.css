@@ -1,0 +1,43 @@
+.sortableMenu ul, li {
+    list-style-type: none;
+    color: #222222;
+    border: 1px solid #3f3f3f;
+}
+
+.sortableMenu ul, #sTree2, #sTreePlus {
+    padding: 0;
+    background-color: #151515;
+}
+
+#sTree2 li, #sTreePlus li, ul#s-l-base li {
+    padding-left: 50px;
+    margin: 5px;
+    border: 1px solid #3f3f3f;
+    background-color: #3f3f3f;
+}
+
+#s-l-base li div, .sortableMenu li div {
+    padding: 3px;
+    background-color: #dedede;
+}
+
+.sortableMenu li, ul, div {
+    border-radius: 3px;
+}
+
+
+.sortableMenu .li-item-container, #s-l-base .li-item-container {
+    display: flex !important;
+    width: 100%;
+}
+
+.sortableMenu .li-item-container > div, #s-l-base .li-item-container > div {
+    flex: 1;
+}
+
+
+.s-l-open {
+    padding-left: 50px;
+    box-sizing: border-box;
+    background: gray;
+}
