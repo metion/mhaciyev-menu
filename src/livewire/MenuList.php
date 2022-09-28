@@ -9,7 +9,7 @@ use MHaciyev\Menu\Services\MenuService;
 
 class MenuList extends Component
 {
-    public array|Collection $menuList = [];
+    public Collection $menuList;
     public ?int $deleteId;
     private MenuService $service;
     protected $listeners = ['refreshList' => 'loadMenuList', 'menuUpdated' => 'menuUpdated'];
@@ -18,6 +18,7 @@ class MenuList extends Component
 
     public function mount(MenuGroupService $menuGroupService)
     {
+        $this->menuList = collect([]);
         $this->menuGroups = $menuGroupService->getMenuGroupList();
         if ($this->menuGroups->count()) {
             $this->group_id = $this->menuGroups->first()->id;
