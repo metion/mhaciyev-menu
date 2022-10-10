@@ -1,7 +1,6 @@
 {
     "name": "mhaciyev/menu",
     "license": "MIT",
-    "version": "1.0.4",
     "autoload": {
         "psr-4": {
             "MHaciyev\\Menu\\": "src/"
