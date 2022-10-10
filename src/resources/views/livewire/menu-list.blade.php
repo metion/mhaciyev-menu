@@ -35,10 +35,10 @@
         </div>
     </div>
 </div>
-@push('head')
+@push('mhmenu_head')
     <link rel="stylesheet" href="{{asset('vendor/mhaciyev_menu/css/menu-list.css')}}">
 @endpush
-@push('footer')
+@push('mhmenu_footer')
     <script src="{{asset('vendor/mhaciyev_menu/js/jquery.min.js')}}"></script>
     <script src="{{asset('vendor/mhaciyev_menu/js/jquery-sortable-lists.js')}}"></script>
     <script>
